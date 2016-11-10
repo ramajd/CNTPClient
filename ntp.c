@@ -47,7 +47,7 @@ long ntp_get_from(const char* host, unsigned int port, unsigned int timeout)
 		return -1;
 	}
 	struct sockaddr addr;
-	socklen_t addr_len;
+	socklen_t addr_len = sizeof(addr);
 	res = recvfrom(sfd, ntpResp, 48, 0, &addr, &addr_len);
 	if (res < 0)
 	{
