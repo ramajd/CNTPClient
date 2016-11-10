@@ -2,7 +2,7 @@
  * ntp.h
  *
  *  Created on: Nov 9, 2016
- *      Author: reza
+ *      Author: Reza Alizadeh Majd
  */
 
 #ifndef NTP_H_
@@ -11,8 +11,6 @@
 #include <time.h>
 #include <sys/time.h>
 
-
-//#define NTP_DEFAULT_SERVER 	"200.20.186.76"
 #define NTP_DEFAULT_SERVER 	"194.225.50.25"
 #define NTP_DEFAULT_PORT	123
 #define NTP_DEFAULT_TIMEOUT	10

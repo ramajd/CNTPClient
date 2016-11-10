@@ -2,7 +2,7 @@
  * ntp.c
  *
  *  Created on: Nov 9, 2016
- *      Author: reza
+ *      Author: Reza Alizadeh Majd
  */
 
 #include "ntp.h"
